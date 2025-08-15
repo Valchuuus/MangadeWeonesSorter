@@ -14,65 +14,17 @@ dataSet["2025-08-15"] = {
   ],
 
   characterData: [
-    {
-      name: "Adrien",
-      img: "Adrien.webp",
-      opts: { tipo: { tipos: true, all: true } }
-    },
-    {
-      name: "Aeru",
-      img: "Aeru.webp",
-      opts: { tipo: { tipas: true, all: true } }
-    },
-    {
-      name: "Alex",
-      img: "Alex.webp",
-      opts: { tipo: { tipos: true, all: true } }
-    },
-    {
-      name: "April",
-      img: "April.webp",
-      opts: { tipo: { tipas: true, all: true } }
-    },
-    {
-      name: "Eve",
-      img: "Eve.webp",
-      opts: { tipo: { tipas: true, all: true } }
-    },
-    {
-      name: "Helen",
-      img: "Helen.webp",
-      opts: { tipo: { tipas: true, all: true } }
-    },
-    {
-      name: "Hye-mi",
-      img: "Hye.webp",
-      opts: { tipo: { tipas: true, all: true } }
-    },
-    {
-      name: "Jess",
-      img: "Jess.webp",
-      opts: { tipo: { tipas: true, all: true } }
-    },
-    {
-      name: "Nacho",
-      img: "Nacho.webp",
-      opts: { tipo: { tipos: true, all: true } }
-    },
-    {
-      name: "Nico",
-      img: "Nico.webp",
-      opts: { tipo: { tipos: true, all: true } }
-    },
-    {
-      name: "Oliver",
-      img: "Oliver.webp",
-      opts: { tipo: { tipos: true, all: true } }
-    },
-    {
-      name: "Sean",
-      img: "Sean.webp",
-      opts: { tipo: { tipos: true, all: true } }
-    }
+    { name: "Adrien", img: "Adrien.webp", opts: { tipo: ["tipos", "all"] } },
+    { name: "Aeru",   img: "Aeru.webp",   opts: { tipo: ["tipas", "all"] } },
+    { name: "Alex",   img: "Alex.webp",   opts: { tipo: ["tipos", "all"] } },
+    { name: "April",  img: "April.webp",  opts: { tipo: ["tipas", "all"] } },
+    { name: "Eve",    img: "Eve.webp",    opts: { tipo: ["tipas", "all"] } },
+    { name: "Helen",  img: "Helen.webp",  opts: { tipo: ["tipas", "all"] } },
+    { name: "Hye-mi", img: "Hye.webp",    opts: { tipo: ["tipas", "all"] } },
+    { name: "Jess",   img: "Jess.webp",   opts: { tipo: ["tipas", "all"] } },
+    { name: "Nacho",  img: "Nacho.webp",  opts: { tipo: ["tipos", "all"] } },
+    { name: "Nico",   img: "Nico.webp",   opts: { tipo: ["tipos", "all"] } },
+    { name: "Oliver", img: "Oliver.webp", opts: { tipo: ["tipos", "all"] } },
+    { name: "Sean",   img: "Sean.webp",   opts: { tipo: ["tipos", "all"] } }
   ]
 };

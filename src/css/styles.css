@@ -41,9 +41,9 @@ body {
 .sorter {
   margin: 0px auto;
   display: grid;
-  grid-template-columns: 120px 1fr 120px;
+ grid-template-rows: repeat(8, auto);
   grid-gap: 5px;
-  width: 420px;
+  width: 460px;
 }
 
 .button {
@@ -116,7 +116,8 @@ body {
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
-  object-fit: cover; 
+  object-fit: cover;
+  grid-row: 1 / 9;
 }
 
 .sorter > .text {

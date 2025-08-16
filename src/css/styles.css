@@ -41,7 +41,8 @@ body {
 .sorter {
   margin: 0px auto;
   display: grid;
- grid-template-rows: repeat(8, auto);
+  grid-template-columns: 150px 1fr 150px;
+  grid-template-rows: auto auto;
   grid-gap: 5px;
   width: 460px;
 }
@@ -117,31 +118,33 @@ body {
   grid-row: 1 / 7;
   cursor: pointer;
   object-fit: cover;
-  grid-row: 1 / 9;
+  grid-row: 1 / 2;
 }
 
 .sorter > .text {
   width: 150px;
   height: auto;
-  display: none;
+  text-align: center;
+  display: block; 
+  grid-row: 2 / 3; 
 }
 
 .sorter > .text > p {
-  margin: 0.5em 5px 0px;
+  margin: 0.3em 5px 0px;
   width: calc(100% - 10px); 
   text-align: center;
   font-size: 0.8em;
-  line-height: 1.5em;
+  line-height: 1.2em;
 }
 
 .sorter > .left {
   grid-column: 1 / 2;
-  border: 1px solid #000000;
+  border: 1px solid #624771;
 }
 
 .sorter > .right {
   grid-column: 3 / 4;
-  border: 1px solid #000000;
+  border: 1px solid #624771;
 }
 
 .options {

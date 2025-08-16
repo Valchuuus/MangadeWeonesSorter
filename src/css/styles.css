@@ -19,7 +19,7 @@ body {
 .progressbar {
   position: relative;
   width: 492px;
-  border: 1px solid black;
+  border: 1px solid #624771;
   padding: 3px;
   margin: 2px 0px;
 }
@@ -34,7 +34,7 @@ body {
 
 .progressfill {
   height: 20px;
-  background-color: lightgreen;
+  background-color: #FF69B4;
   width: 0%;
 }
 

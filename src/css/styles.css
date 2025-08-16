@@ -121,14 +121,14 @@ body {
 }
 
 .sorter > .text {
-  width: 120px;
-  height: 60px;
+  width: 150px;
+  height: auto;
   display: none;
 }
 
 .sorter > .text > p {
   margin: 0.5em 5px 0px;
-  width: calc(100%-10px);
+  width: calc(100% - 10px); 
   text-align: center;
   font-size: 0.8em;
   line-height: 1.5em;

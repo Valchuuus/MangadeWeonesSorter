@@ -111,11 +111,12 @@ body {
 }
 
 .sorter > .image {
-  width: 120px;
-  height: 180px;
+  width: 150px;   
+  height: 150px;
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
+  object-fit: cover; 
 }
 
 .sorter > .text {
